@@ -34,7 +34,7 @@ let productCat = (productsdisplay) => {
                 <img src=${product.api_featured_image} class=img-fluid></img>
                 <p>Brand : ${product.brand}</p>
                 <p>Name : ${product.name}</p>
-                <p>Price : ${product.price}</p>
+                <p>Price :$ ${product.price}</p>
                 <p class=descrip>Description : ${product.description}</p>
                 <a href=${product.product_link} class=btn target=_blank>View Product Link</a>
             </div> `;
